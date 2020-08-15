@@ -420,3 +420,10 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+@media (min-width:507px){
+  .content{
+    overflow: auto;
+    
+  }
+}
