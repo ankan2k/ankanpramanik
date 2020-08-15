@@ -231,7 +231,7 @@ font-style: italic;
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 50px; /* Rounded corners */
+  border-radius: 100px; /* Rounded corners */
   font-size: 15px; /* Increase font size */  
 }
 #myBtn:hover {
@@ -318,6 +318,8 @@ div.desc {
   background-color: #ffffff;
   padding: 30px;
   height: 350px;
+  height: auto;
+  line-height:100px;
 }
 #contact-heading{
   color: #0a0183b2;
@@ -420,10 +422,10 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
 @media (min-width:507px){
   .content{
     overflow: auto;
-    
+    /* font-size: px; */
   }
 }
+  
