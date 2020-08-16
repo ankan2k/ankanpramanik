@@ -251,7 +251,7 @@ font-style: italic;
   background-color: #ffffff;
   height: 350px;
   padding-bottom: 40px;
-  /* overflow: auto; */
+  overflow: auto;
 }
 .h3-heading{
   color: black;
